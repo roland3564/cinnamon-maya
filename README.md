@@ -2,6 +2,7 @@
 Displays the mayan calendar on cinnamon's panel
 
 ![Showcase](https://i.ibb.co/TBs6ntrg/Schermata-del-2025-05-22-16-42-03.png)
+
 (2025-May-22)
 
 # INSTRUCTIONS
