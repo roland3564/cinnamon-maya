@@ -71,11 +71,11 @@ def mayan_date():
     # Output formatting
     result = []
     if config.get("show_long_count", True):
-        result.append(f"LC {baktun}.{katun}.{tun}.{uinal}.{kin}")
+        result.append(f"LC: {baktun}.{katun}.{tun}.{uinal}.{kin}")
     if config.get("show_tzolkin", True):
-        result.append(f"{tzolkin_name} {tzolkin_number}")
+        result.append(f" T: {tzolkin_name} {tzolkin_number}")
     if config.get("show_haab", True):
-        result.append(f"{haab_name} {haab_day}")
+        result.append(f" H: {haab_name} {haab_day}")
 
     return ", ".join(result)
 
