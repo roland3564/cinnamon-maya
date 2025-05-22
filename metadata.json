@@ -1,0 +1,10 @@
+{
+  "uuid": "mayan-calendar@n1",
+  "name": "Mayan Calendar",
+  "description": "Shows Mayan Long Count, Tzolkin and Haab",
+  "max-instances": 1,
+  "local": true,
+  "settings-schema": "settings-schema.json",
+  "enable-configuration": true
+}
+

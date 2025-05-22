@@ -1,0 +1,41 @@
+{
+  "settings": [
+    {
+      "key": "show_long_count",
+      "type": "switch",
+      "default": true,
+      "description": "Show Long Count"
+    },
+    {
+      "key": "show_tzolkin",
+      "type": "switch",
+      "default": true,
+      "description": "Show Tzolk'in"
+    },
+    {
+      "key": "show_haab",
+      "type": "switch",
+      "default": true,
+      "description": "Show Haab’"
+    },
+    {
+      "key": "day_offset",
+      "type": "spinbutton",
+      "default": 0,
+      "units": "days",
+      "min": -10,
+      "max": 10,
+      "description": "Day Offset"
+    },
+    {
+      "key": "sunrise_hour",
+      "type": "spinbutton",
+      "default": 6,
+      "units": "hour (0–23)",
+      "min": 0,
+      "max": 23,
+      "description": "Sunrise Hour"
+    }
+  ]
+}
+
