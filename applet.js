@@ -21,7 +21,7 @@ class MyApplet extends Applet.TextApplet {
         let output = this.runPythonScript();
         this.set_applet_label(output);
 
-        GLib.timeout_add_seconds(0, 86400, () => {
+        GLib.timeout_add_seconds(0, 300, () => {
             this.refresh();
             return true;
         });
@@ -59,4 +59,3 @@ class MyApplet extends Applet.TextApplet {
 function main(metadata, orientation, panelHeight, instanceId) {
     return new MyApplet(metadata, orientation, panelHeight, instanceId);
 }
-
